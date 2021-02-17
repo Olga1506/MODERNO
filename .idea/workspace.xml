@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04629430-61e0-4c9d-b459-a5801456df42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Moderno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/libs.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/libs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613556415593</updated>
-      <workItem from="1613556422858" duration="417000" />
+      <workItem from="1613556422858" duration="2842000" />
     </task>
     <servers />
   </component>
