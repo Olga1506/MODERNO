@@ -208,6 +208,7 @@
       font-size: 14px;
       font-weight: 500;
       color: #546e7a;
+      max-width: 245px;
     }
     .avatar{
       width: 30px;
@@ -218,10 +219,21 @@
       margin-right: 14px;
     }
     &-star{
+      display: flex;
+      align-items: center;
       font-size: 12px;
       font-weight: 400;
       color: #b0bec5;
     }
+    .rate-star{
+      width: 66px;
+      height: 11px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 14px;
+    }
+
   }
 }
 
@@ -244,9 +256,114 @@
     cursor: pointer;
   }
 }
+//Product__slider
+//----------------------------------------------------------------------------------
+.product-slider{
+  padding: 110px 0 120px;
+  .slick-dots{
+    margin-top: 50px;
+    text-align: center;
+    li{
+      display: inline-block;
+      margin: 0 3px;
+      &.slick-active{
+        button{
+          background-color: green;
+        }
+      }
+      button{
+        border-radius: 50%;
+        background-color: rgb(232,232,232);
+        border: none;
+        font-size:0 ;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
 
+      }
+    }
+  }
+}
+.product__item{
+  box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+  background-color: #fff;
+  max-width: 442px;
+  width: 100%;
+  margin-bottom: 30px;
+  &-img{
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+  }
+  &-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    min-height: 90px;
+    border-bottom: 1px solid #e7ecf2;
+    &-name{
+      max-width: 310px;
+    }
+  }
+  &-title{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #263238;
+  }
+  &-category{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8bc34a;
+  }
+  &-price{
+    font-size: 20px;
+    font-weight: 700;
+    color: #263238;
+  }
+  &-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    padding: 10px 30px;
+  }
+  &-author{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #546e7a;
+    max-width: 245px;
+  }
+  .avatar{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 14px;
+  }
+  &-star{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #b0bec5;
+  }
+  .rate-star{
+    width: 66px;
+    height: 11px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 14px;
+  }
 
-
+}
 
 
 
