@@ -408,6 +408,100 @@
   }
 }
 
+//Author
+//--------------------------------------------------
+.author{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__box{
+    max-width: 650px;
+    width: 100%;
+    min-height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8bc34a;
+  }
+  &__title{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 45px;
+    max-width: 265px;
+  }
+  span{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  &__link{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #263238;
+    background-color: white;
+    padding: 14px 40px;
+  }
+}
+
+//Tutorial
+//-----------------------------------------------
+
+.tutorial{
+  padding: 75px 0 120px 0;
+  &__title{
+  }
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item{
+    max-width: 370px;
+    width: 100%;
+  }
+  &__images{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 270px;
+  }
+  &__subtitle{
+    background-color: #f8f8f8;
+    font-size: 24px;
+    font-weight: 700;
+    color: #263238;
+    text-align: center;
+    padding: 30px ;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
