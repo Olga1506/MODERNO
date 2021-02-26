@@ -451,7 +451,36 @@
   }
 }
 
+//Tutorial
+//-----------------------------------------------
 
+.tutorial{
+  padding: 75px 0 120px 0;
+  &__title{
+  }
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item{
+    max-width: 370px;
+    width: 100%;
+  }
+  &__images{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 270px;
+  }
+  &__subtitle{
+    background-color: #f8f8f8;
+    font-size: 24px;
+    font-weight: 700;
+    color: #263238;
+    text-align: center;
+    padding: 30px ;
+  }
+}
 
 
 
