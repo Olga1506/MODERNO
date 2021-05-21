@@ -90,7 +90,7 @@ body{
       & + li{
         padding-left: 24px;
         &:before{
-          content: "_";
+          content: "";
           position: absolute;
           left: 8px;
           color: $green;
